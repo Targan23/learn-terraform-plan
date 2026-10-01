@@ -30,7 +30,7 @@ resource "random_pet" "instance" {
 module "ec2-instance" {
   source = "./modules/aws-ec2-instance"
 
-  ami_id        = data.aws_ami.ubuntu.id
+  ami_id        = "ami-0c38f63b13d1556ea"
   instance_name = random_pet.instance.id
 }
 
