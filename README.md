@@ -4,7 +4,12 @@ This repo is a companion repo to the [Create a Terraform Plan](https://developer
 It contains Terraform configuration you can use to learn how Terraform generates an execution plan.
 
 ## My notes
-- TODO: add your notes here
+- `terraform plan` shows what Terraform would change without changing anything
+- It compares the config, the state file and the real infrastructure
+- `+` means create, `-` means destroy, `~` means update in place
 
 ## My notes
-- TODO: add your notes here
+- `terraform plan` shows what Terraform would change without changing anything
+- It compares the config, the state file and the real infrastructure
+- `+` means create, `-` means destroy, `~` means update in place
+
